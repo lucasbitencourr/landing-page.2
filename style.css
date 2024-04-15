@@ -99,6 +99,11 @@ nav img {
     transition: 1s;
 }
 
+nav .material-symbols-outlined {
+   display: none;
+}
+
+
 @media screen and (max-width: 600px) {
     .text-box h1 {
         font-size: 20px;
@@ -114,8 +119,20 @@ nav img {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
     }
+    nav .material-symbols-outlined {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+     }
+
+     .nav-links ul {
+        padding: 30px;
+     }
 }

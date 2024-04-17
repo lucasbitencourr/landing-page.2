@@ -346,4 +346,7 @@ footer h4 {
     .cta h1 {
         font-size: 24px;
     }
+    .cabeçalho img {
+        padding-top: 25px;
+    }
 }
